@@ -1,0 +1,36 @@
+{
+  "name": "grunt-supported-browsers",
+  "version": "1.0.0",
+  "description": "Shows you what browsers you currently support based on your browserlist config.",
+  "keywords": [
+    "grunt",
+    "browserlist",
+    "autoprefixer"
+  ],
+  "bugs": {
+    "url": "https://github.com/hosting-de-labs/grunt-supported-browsers/issues"
+  },
+  "license": "MIT",
+  "author": {
+    "name": "hosting.de GmbH",
+    "url": "https://www.hosting.de/"
+  },
+  "files": [
+    "tasks"
+  ],
+  "main": "tasks/supported-browsers.js",
+  "repository": "hosting-de-labs/grunt-supported-browsers",
+  "dependencies": {
+    "browserslist": "^1.0.0",
+    "lodash.isundefined": "^3.0.1"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.5"
+  },
+  "peerDependencies": {
+    "grunt": "~0.4.1"
+  },
+  "engines": {
+    "node": ">= 0.12.0"
+  }
+}
