@@ -21,7 +21,7 @@
   "main": "tasks/supported-browsers.js",
   "repository": "hosting-de-labs/grunt-supported-browsers",
   "dependencies": {
-    "browserslist": "^1.0.1",
+    "browserslist": "^2.0",
     "lodash.isundefined": "^3.0.1"
   },
   "devDependencies": {
